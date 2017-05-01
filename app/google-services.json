@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "401698066331",
+    "firebase_url": "https://finalwip.firebaseio.com",
+    "project_id": "finalwip",
+    "storage_bucket": "finalwip.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:401698066331:android:247612a8e9e4b845",
+        "android_client_info": {
+          "package_name": "rachelmiller.finalproject_wip"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "401698066331-08k8b2mae6qtr2elj8etfnptknp7sahj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAVlOn15pRTGC76Kx8vgmnVuqf3QszaylI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

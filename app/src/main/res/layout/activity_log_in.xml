@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="rachelmiller.finalproject_wip.LogInActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:src="@drawable/hh_logo"/>
+
+    <TextView
+        style="@style/TextViewStyle"
+        android:text="Welcome to Homework Helper!"/>
+
+    <EditText
+        android:id="@+id/usernameEnter"
+        style="@style/EditWelcomeStyle"
+        android:hint="Username"/>
+
+    <EditText
+        android:id="@+id/pwordEnter"
+        style="@style/EditWelcomeStyle"
+        android:layout_marginBottom="5dp"
+        android:hint="Password" />
+
+    <Button
+        android:id="@+id/enterButton"
+        style="@style/ButtonStyle"
+        android:layout_marginBottom="5dp"
+        android:onClick="toUserManage"
+        android:text="Log In"/>
+
+    <Button
+        android:id="@+id/newUserButton"
+        style="@style/ButtonStyle"
+        android:onClick="toNewAssignment"
+        android:text="New Student?"/>
+
+
+</LinearLayout>
